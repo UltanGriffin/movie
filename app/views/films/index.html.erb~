@@ -26,7 +26,6 @@
   <%= link_to 'Destroy', film, method: :delete, 
       data: { confirm: 'Are you sure?' } %>
 </td>
-       </td>
       <% end %>
     <% end %>
   </tbody>
