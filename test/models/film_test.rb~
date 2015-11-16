@@ -21,7 +21,7 @@ test "image must point to an image file" do
   bad = %w{ frog.doc frog.png/less frog.png.less }
 
   ok.each do |url|
-    film.image = url
+    film.image_url = url
     assert film.valid?, "#{url} should be a valid image url"
   end
 

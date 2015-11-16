@@ -17,3 +17,11 @@ two:
   plot: MyText
   image: MyString.jpg
   rating: MyString
+
+ruby:
+  title: Django Unchained
+  director: Quinton Tarintino
+  year: 2013
+  plot:
+    something something racism.
+  image: django.jpg

@@ -18,7 +18,7 @@ class FilmsControllerTest < ActionController::TestCase
 
   test "should create film" do
     assert_difference('Film.count') do
-      post :create, film: { director: @film.director, image: @film.image, plot: @film.plot, rating: @film.rating, starring: @film.starring, title: "New Film", year: @film.year }
+      post :create, film: { director: @film.director, image: @film.image, plot: @film.plot, rating: @film.rating, starring: @film.starring, title: "new_film", year: @film.year }
     end
 
     assert_redirected_to film_path(assigns(:film))

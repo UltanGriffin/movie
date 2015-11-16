@@ -1,19 +1,20 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
+  title: MyString1
   director: MyString
   year: MyString
   starring: MyString
   plot: MyText
-  image: MyString
+  image: MyString.jpg
   rating: MyString
 
 two:
-  title: MyString
+  title: MyString2
   director: MyString
   year: MyString
   starring: MyString
   plot: MyText
-  image: MyString
+  image: MyString.jpg
   rating: MyString
+
