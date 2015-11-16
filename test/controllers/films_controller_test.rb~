@@ -21,7 +21,7 @@ class FilmsControllerTest < ActionController::TestCase
       post :create, film: { director: @film.director, image: @film.image, plot: @film.plot, rating: @film.rating, starring: @film.starring, title: "New Film", year: @film.year }
     end
 
-    assert_redirected_to film_path(assigns(:film))
+    assert_redirected_to film(assigns(:film))
   end
 
   test "should show film" do
