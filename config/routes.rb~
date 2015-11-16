@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   get 'vote/index'
-  root :to => 'vote#index', :as => 'vote'
 
   resources :films
   # The priority is based upon order of creation: first created -> highest priority.
