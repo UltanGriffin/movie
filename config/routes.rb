@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   get 'vote/index'
   root :to => 'vote#index', :as => 'vote'
 
