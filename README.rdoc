@@ -1,28 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my attempt at creating a movie review app for cs424.  It consists of 3 scaffolds,  films, users, and ratings and uses a 'raty' 5 star rating system.  
 
-Things you may want to cover:
+However there seems to be major problems with the review and film controllers that is beyond my comprehension on ruby on rails.  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+I do not know whether I have gone wrong somewhere far back in the construction of the app or whether it is mearly a syntax error.  But it does not allow access to the review page or to the show film page.  
