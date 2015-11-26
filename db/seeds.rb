@@ -37,6 +37,10 @@ The defense and the prosecution have rested and the jury is filing into the jury
   image: '12angrymen.jpg',    
   rating: 1)
 
+User.delete_all
+
+User.create!(name: 'ultan', password: 'password')
+
 
 
 

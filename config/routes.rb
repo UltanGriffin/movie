@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
+get 'admin' => 'admin#index'
+
+controller :sessions do
+  get 'login' => :new
+  post 'login' => :create
+  delete 'logout' => :destroy
+end
+
   resources :users
-  get 'vote/index'
-  root :to => 'vote#index', :as => 'vote'
+  get 'films/index'
+  root :to => 'films#index', :as => 'films'
 
   resources :films
   # The priority is based upon order of creation: first created -> highest priority.
